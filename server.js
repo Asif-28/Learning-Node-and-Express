@@ -1,3 +1,5 @@
+// the express server
+
 const express = require("express");
 const path = require("path");
 
@@ -7,7 +9,7 @@ const messagesRouter = require("./routes/messages.router");
 
 const app = express();
 
-// TO SET VIEW ENGINE TO DISPLAY TH EHTLM REACT JSVASCRIPT PAGES
+// TO SET VIEW ENGINE TO DISPLAY THE HTLM REACT JSVASCRIPT PAGES
 // PATH MODULE IS REQUIRES TO GET THE ABSOLUTE PATH IN ANY OS
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "views"));
