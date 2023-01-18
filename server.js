@@ -1,4 +1,9 @@
 // the express server
+// the express server
+// the express serve
+// the hbs server used here is the view controller 
+
+
 
 const express = require("express");
 const path = require("path");
